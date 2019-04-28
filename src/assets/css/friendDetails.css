@@ -1,0 +1,48 @@
+/*Css for FriendDetails Component */
+
+.friendList .header input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #fff;
+    width: 265px;
+}
+
+/*Showing listing inside a button*/
+
+.friendList .header button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0 10px 10px;
+    background-color: #0066ff;
+    color: #fff;
+    border: 2px solid #0066ff;
+}
+
+/*Hover Css for the listing of friends*/
+
+.friendList .header button:hover {
+    background-color: #003399;
+    border: 2px solid #003399;
+    cursor: pointer;
+}
+
+.friendList .listing li {
+    display: flex;
+    justify-content: space-between;
+    color: #333;
+    background: rgba(255, 255, 255, .2);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    list-style: none;
+    transition: background-color .2s ease-out;
+}
+
+.friendList .listing li:hover {
+    background-color: #ebebeb;
+    cursor: pointer;
+}
+
+ul.listing {
+    padding: 0;
+}
